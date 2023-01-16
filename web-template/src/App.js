@@ -69,7 +69,7 @@ const handleVideoOnPlay = () => {
       </div>
 
       <div className="face-video">
-        <span>{initializing ? 'Initializing' : 'Ready'}</span> 
+        <span className='text'>{initializing ? 'Initializing' : 'Ready'}</span> 
         <div className="face">
           <video ref={videoRef} autoPlay muted height={videoHeight} width={videoWidth} onPlay={handleVideoOnPlay} /> 
           <canvas ref={canvasRef} className='canva' />
