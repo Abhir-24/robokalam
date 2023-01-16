@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  font-weight: 100;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.video {
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.face-video {
+  width: 30%;
+  padding: 30px;
+  height: 100vh;
+  margin: 50px;
+}
+
+.canva {
+  position: absolute;
+}
+
+.face {
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.video-responsive {
+  overflow: hidden;
+  margin-top: 10%;
+  padding-bottom: 50%;
+  margin-left: 80px;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
