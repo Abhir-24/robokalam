@@ -51,3 +51,9 @@
   width: 100%;
   position: absolute;
 }
+
+.text {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
